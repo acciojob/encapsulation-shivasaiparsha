@@ -2,18 +2,18 @@ package com.driver;
 import java.util.*;
 public class RWOnly {
 
-    private String member;
+    private String name;
 
-    RWOnly(String member)
+    RWOnly(String name)
     {
-        this.member=member;
+        this.name=name;
     }
 
-    public String getMember() {
-        return member;
+    public String getName() {
+        return name;
     }
 //
-    public void setMember(String member) {
-        this.member = member;
+    public void setName(String name) {
+        this.name = name;
     }
 }

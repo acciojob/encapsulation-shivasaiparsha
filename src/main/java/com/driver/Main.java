@@ -1,5 +1,5 @@
 package com.driver;
-
+import java.util.*;
 public class Main {
 
     public static void main(String [] args)
@@ -7,7 +7,7 @@ public class Main {
         RWOnly rw = new RWOnly("shiva");
         //  java: cannot find symbol
        //  symbol: variable memeber
-       rw.setMember("parsha shiva sai");
-       rw.getMember();
+       rw.setName("parsha shiva sai");
+       rw.getName();
     }
 }
