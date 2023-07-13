@@ -8,6 +8,6 @@ public class Main {
         //  java: cannot find symbol
        //  symbol: variable memeber
        rw.setName("parsha shiva sai");
-       rw.getName();
+       System.out.println(rw.getName());
     }
 }
