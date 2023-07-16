@@ -4,10 +4,7 @@ public class RWOnly {
 
     private String name;
 
-    RWOnly(String name)
-    {
-        this.name=name;
-    }
+
 
     public String getName() {
         return name;
